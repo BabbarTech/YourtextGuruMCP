@@ -1,0 +1,31 @@
+﻿{
+  "name": "yourtextguru-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for YourTextGuru API",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "yourtextguru-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-cache": "^5.1.2",
+    "pino": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/node-cache": "^4.2.5",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
