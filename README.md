@@ -39,7 +39,7 @@ Serveur MCP (Model Context Protocol) pour l'API YourTextGuru. Permet d'utiliser 
 ## Installation
 
 ```bash
-git clone https://github.com/Babbar/YourtextGuruMCP.git
+git clone https://github.com/BabbarTech/YourtextGuruMCP.git
 cd YourtextGuruMCP
 npm install
 npm run build
